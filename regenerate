@@ -1,0 +1,1 @@
+python D:\supercollider/tools/cmake_gen/generate_server_plugin_cmake.py -P "Double Pendulum" -p "plugins/DoublePendulum" -a "Aleksandar Koruga"

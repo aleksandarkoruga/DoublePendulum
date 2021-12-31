@@ -1,0 +1,26 @@
+class:: DoublePendulum
+summary:: A double pendulum with a circle map forcing
+related:: TODO
+categories:: UGens>TODO
+
+description::
+
+A double pendulum with a circle map forcing
+
+
+classmethods::
+
+method::ar, kr
+
+argument::TODO
+
+argument::TODO
+
+
+examples::
+
+code::
+
+{ DoublePendulum.ar(/* TODO */) }.play
+
+::
