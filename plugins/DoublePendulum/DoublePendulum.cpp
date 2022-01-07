@@ -27,6 +27,8 @@ void DoublePendulum::next(int nSamples) {
 
     float* outbuf = out(0);
     float* outbuf1 = out(1);
+    float* outbuf2 = out(2);
+    float* outbuf3 = out(3);
 
 
     for (int i = 0; i < nSamples; ++i) {
@@ -40,6 +42,8 @@ void DoublePendulum::next(int nSamples) {
         
         outbuf[i] = pt1.phi;
         outbuf1[i] = pt1.theta;
+        outbuf2[i] = pt2.phi;
+        outbuf3[i] = pt2.theta;
 
     }
 }
